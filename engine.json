@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "com.github.gzilt.tokenizer.thai.ThaiTokenizerEngine",
+  "datasource": {
+    "params" : {
+      "appName": "pio-skeleton-test"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "icu",
+      "params": {
+        "mult" : 1
+      }
+    }
+  ]
+}
